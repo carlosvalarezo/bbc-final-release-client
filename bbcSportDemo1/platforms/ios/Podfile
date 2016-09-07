@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'BBC Sport Demo' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Messaging'
+  # Pods for BBC Sport Demo
+
+end

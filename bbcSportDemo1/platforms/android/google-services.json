@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "464417086033",
+    "firebase_url": "https://bbcprototype.firebaseio.com",
+    "project_id": "bbcprototype",
+    "storage_bucket": "bbcprototype.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464417086033:android:2b6065e31659e7f6",
+        "android_client_info": {
+          "package_name": "com.phonegap.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464417086033-4e598pg1d8vd76ka3osfjts1jk5qajuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxcNZDjY7hp32h-YQfZo9tu5N6VK9T5bQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464417086033:android:c215e289f58346ef",
+        "android_client_info": {
+          "package_name": "uk.co.bbc.sport.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464417086033-4e598pg1d8vd76ka3osfjts1jk5qajuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxcNZDjY7hp32h-YQfZo9tu5N6VK9T5bQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

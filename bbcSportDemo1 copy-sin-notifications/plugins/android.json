@@ -1,0 +1,79 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "uk.co.bbc.sport.demo"
+        }
+    }
+}

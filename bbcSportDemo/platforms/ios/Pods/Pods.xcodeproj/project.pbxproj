@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDCC477D393C30A4C42C78B988AA3188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D9882ABC95835C2313EEF442DB23289B /* Pods-BBC Sport Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D3A5FEFE18574D9D209EC0B43E024 /* Pods-BBC Sport Demo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1010560315D857DB77EDB1DF53AEDA87 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
+		10712A935C75572FB511A89F6B1B7226 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		15BF427E1A933B7654B44ED2E89BA252 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		247FFB99B5E029C20E9242E3B8F9D4B1 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		2A28C5578835619E6A6A429AF14E7E0D /* Core-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Core-Module.h"; path = "Headers/ModuleHeaders/Core-Module.h"; sourceTree = "<group>"; };
+		2B979A57A67D4D73E80DD5CB287092CA /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		341467996A6D38E6AC351D8F592EF9A8 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		3557C736352AB5189197BBB1D8E1B6BB /* SignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SignIn.h; path = Headers/SignIn.h; sourceTree = "<group>"; };
+		37068619E82AAD7785517055409A6823 /* FIRMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMessaging.h; path = Headers/Public/FIRMessaging.h; sourceTree = "<group>"; };
+		4209280E36BCF0B9C1FAE2D11D6B4661 /* Pods-BBC Sport Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBC Sport Demo.release.xcconfig"; sourceTree = "<group>"; };
+		44DFFE3DC9DCD1E8181465EECE37CFF6 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		50579496DC85EF8F87E0DBAE908D9DB6 /* Pods-BBC Sport Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBC Sport Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		55754B40143C280F1B9801E82A2C4159 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Resources/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		5857FC70F322472C88B65AB2404D35F0 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/Core.h; sourceTree = "<group>"; };
+		6CAB861F14FD9F39A8B8BC12344733E0 /* libPods-BBC Sport Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBC Sport Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B990FFD280EE28C7FD25EF8223DE0E0 /* GGLSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLSignIn.framework; path = Frameworks/GGLSignIn.framework; sourceTree = "<group>"; };
+		840E8586C1CF0CC1E09D2C0624ABC388 /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAuthUtilities.framework; path = Frameworks/GoogleAuthUtilities.framework; sourceTree = "<group>"; };
+		8FCB7572DD2CD11FD35794BBD36EEB32 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		92169340C870CC3F374119FE6B420E02 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		92860000132BF56F21311764EE9A2ED4 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABB3489023E0A1E7828E3DEAFF6EACF9 /* Pods-BBC Sport Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBC Sport Demo-resources.sh"; sourceTree = "<group>"; };
+		C18D3A5FEFE18574D9D209EC0B43E024 /* Pods-BBC Sport Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBC Sport Demo-dummy.m"; sourceTree = "<group>"; };
+		C9E494F78977A8AB4029DC98708D4DC2 /* Pods-BBC Sport Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBC Sport Demo-frameworks.sh"; sourceTree = "<group>"; };
+		CB1CD4D807E45A173BC7BE3E82DB8737 /* SignIn-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SignIn-Module.h"; path = "Headers/ModuleHeaders/SignIn-Module.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D38527C8756BEBF4A2FCB279632B402F /* Pods-BBC Sport Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBC Sport Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9F270A5398EB95AA4BD0E6552B9CCB9 /* Analytics-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Analytics-Module.h"; path = "Headers/ModuleHeaders/Analytics-Module.h"; sourceTree = "<group>"; };
+		DBD08B3C32146736E78852478D54BF1F /* GGLCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLCore.framework; path = Frameworks/GGLCore.framework; sourceTree = "<group>"; };
+		E16807DB5DC8E243C77DB8A8B1CCB4C0 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		E76654E8C4389E8E43E706B65C080D6B /* Pods-BBC Sport Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBC Sport Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC2D37B50B659823ED8E3A06940B9C04 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppUtilities.framework; path = Frameworks/GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		FC9D2025B5982AD0AE0AD00A82E5D011 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3455D83B8331040A1F4D0569595B444B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCC477D393C30A4C42C78B988AA3188 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04044001DE13BACEC855180242B17F50 /* GoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				6BFE7F437B54EDF4854A7F9CB325E6AC /* Frameworks */,
+				D9F16BE35889C66C9358816798CAD109 /* Resources */,
+			);
+			path = GoogleSignIn;
+			sourceTree = "<group>";
+		};
+		138DB11F1D60FECB47EB9C368B926EBD /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				65D92F846233A236A06741721810EB1C /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		1A31905A4208AC7B2D0C4F7842CE01CF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D9F270A5398EB95AA4BD0E6552B9CCB9 /* Analytics-Module.h */,
+				5857FC70F322472C88B65AB2404D35F0 /* Core.h */,
+				2A28C5578835619E6A6A429AF14E7E0D /* Core-Module.h */,
+				CB1CD4D807E45A173BC7BE3E82DB8737 /* SignIn-Module.h */,
+				88C9A183FECEC049CAF91DA18DB82B3C /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1F07CE626DCAD8415145FF7F2B2F885B /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				DB67DCF0258772529CC12289F8B79DC6 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		21831228C05102CEEDDE0200980211AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B990FFD280EE28C7FD25EF8223DE0E0 /* GGLSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32FCEE8071E9B93A4B14C8BFDF10ED01 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F6223F42B6CA629144AA0B39492844 /* Pods-BBC Sport Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39F6223F42B6CA629144AA0B39492844 /* Pods-BBC Sport Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D38527C8756BEBF4A2FCB279632B402F /* Pods-BBC Sport Demo-acknowledgements.markdown */,
+				E76654E8C4389E8E43E706B65C080D6B /* Pods-BBC Sport Demo-acknowledgements.plist */,
+				C18D3A5FEFE18574D9D209EC0B43E024 /* Pods-BBC Sport Demo-dummy.m */,
+				C9E494F78977A8AB4029DC98708D4DC2 /* Pods-BBC Sport Demo-frameworks.sh */,
+				ABB3489023E0A1E7828E3DEAFF6EACF9 /* Pods-BBC Sport Demo-resources.sh */,
+				50579496DC85EF8F87E0DBAE908D9DB6 /* Pods-BBC Sport Demo.debug.xcconfig */,
+				4209280E36BCF0B9C1FAE2D11D6B4661 /* Pods-BBC Sport Demo.release.xcconfig */,
+			);
+			name = "Pods-BBC Sport Demo";
+			path = "Target Support Files/Pods-BBC Sport Demo";
+			sourceTree = "<group>";
+		};
+		3ACA02C304AD04B91737CF11A7D3A092 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				1A31905A4208AC7B2D0C4F7842CE01CF /* Core */,
+				B0A3DC79640C0CD092F7FB210486A044 /* SignIn */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		3B8BA91877A4E64BBB7E481A265318CB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				401EBB4EA6EB2B4DA0E83247AB03201E /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		401EBB4EA6EB2B4DA0E83247AB03201E /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				92860000132BF56F21311764EE9A2ED4 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		42A42E1F8F555D26DA2763701B2C27B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E16807DB5DC8E243C77DB8A8B1CCB4C0 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		474BF68EB8EABF964AAEC7CF59B564F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10712A935C75572FB511A89F6B1B7226 /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A10EF16A4602EB7A3292FAD5AB77F1B /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				8FCB7572DD2CD11FD35794BBD36EEB32 /* FIRInstanceID.h */,
+				B37E572837F0DF6671E642DEEB27F4FD /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		508F2BFB025B60E338799479B734CA11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15BF427E1A933B7654B44ED2E89BA252 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554E6924D97E456D3B768041697848BE /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				E033E8C42D35CA39927BB584D06BB6AE /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		59FFBFD846481CB7611083E0E093F592 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				508F2BFB025B60E338799479B734CA11 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		5D5EC025D6A26020B3819DBB4A702E60 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				42A42E1F8F555D26DA2763701B2C27B6 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		65D92F846233A236A06741721810EB1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				247FFB99B5E029C20E9242E3B8F9D4B1 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BFE7F437B54EDF4854A7F9CB325E6AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1010560315D857DB77EDB1DF53AEDA87 /* GoogleSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75F1F1D0C022DEAB6B969449CCC1E2C6 /* GoogleAuthUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				997257B4937E20E8CF8760604670B06E /* Frameworks */,
+			);
+			path = GoogleAuthUtilities;
+			sourceTree = "<group>";
+		};
+		76471439290944B4492A16E18E86A192 /* FirebaseMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				37068619E82AAD7785517055409A6823 /* FIRMessaging.h */,
+				BA596C0DE6994AE496148E194406252D /* Frameworks */,
+			);
+			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+		7A86D9F48ED8BDC59E8B7A85B3AB2857 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC2D37B50B659823ED8E3A06940B9C04 /* GoogleAppUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E18807B13BCE801CB8A739E7B07A1DEA /* Pods */,
+				9F96D5EE0C6058D6754C49805C9C1C5E /* Products */,
+				32FCEE8071E9B93A4B14C8BFDF10ED01 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88C9A183FECEC049CAF91DA18DB82B3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD08B3C32146736E78852478D54BF1F /* GGLCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		997257B4937E20E8CF8760604670B06E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				840E8586C1CF0CC1E09D2C0624ABC388 /* GoogleAuthUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F96D5EE0C6058D6754C49805C9C1C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CAB861F14FD9F39A8B8BC12344733E0 /* libPods-BBC Sport Demo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0A3DC79640C0CD092F7FB210486A044 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				3557C736352AB5189197BBB1D8E1B6BB /* SignIn.h */,
+				21831228C05102CEEDDE0200980211AF /* Frameworks */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		B0C27A8ECD44B12F733EF09052CD2FCC /* GoogleAppUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				7A86D9F48ED8BDC59E8B7A85B3AB2857 /* Frameworks */,
+			);
+			path = GoogleAppUtilities;
+			sourceTree = "<group>";
+		};
+		B37E572837F0DF6671E642DEEB27F4FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				341467996A6D38E6AC351D8F592EF9A8 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA596C0DE6994AE496148E194406252D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC9D2025B5982AD0AE0AD00A82E5D011 /* FirebaseMessaging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEDA9573679F0B9A1D7A04FA9BE05228 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C82EBE0C58ED86885621938C34BC2964 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		C82EBE0C58ED86885621938C34BC2964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44DFFE3DC9DCD1E8181465EECE37CFF6 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9F16BE35889C66C9358816798CAD109 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55754B40143C280F1B9801E82A2C4159 /* GoogleSignIn.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DB67DCF0258772529CC12289F8B79DC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B979A57A67D4D73E80DD5CB287092CA /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E033E8C42D35CA39927BB584D06BB6AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92169340C870CC3F374119FE6B420E02 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E18807B13BCE801CB8A739E7B07A1DEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B8BA91877A4E64BBB7E481A265318CB /* Firebase */,
+				1F07CE626DCAD8415145FF7F2B2F885B /* FirebaseAnalytics */,
+				138DB11F1D60FECB47EB9C368B926EBD /* FirebaseDatabase */,
+				4A10EF16A4602EB7A3292FAD5AB77F1B /* FirebaseInstanceID */,
+				76471439290944B4492A16E18E86A192 /* FirebaseMessaging */,
+				3ACA02C304AD04B91737CF11A7D3A092 /* Google */,
+				B0C27A8ECD44B12F733EF09052CD2FCC /* GoogleAppUtilities */,
+				75F1F1D0C022DEAB6B969449CCC1E2C6 /* GoogleAuthUtilities */,
+				554E6924D97E456D3B768041697848BE /* GoogleInterchangeUtilities */,
+				FEC61891C43DED75FDDF6C313B2F7E54 /* GoogleIPhoneUtilities */,
+				59FFBFD846481CB7611083E0E093F592 /* GoogleNetworkingUtilities */,
+				04044001DE13BACEC855180242B17F50 /* GoogleSignIn */,
+				BEDA9573679F0B9A1D7A04FA9BE05228 /* GoogleSymbolUtilities */,
+				5D5EC025D6A26020B3819DBB4A702E60 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEC61891C43DED75FDDF6C313B2F7E54 /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				474BF68EB8EABF964AAEC7CF59B564F1 /* Frameworks */,
+			);
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		468C04C002AEE81420574B53D2EC7BF4 /* Pods-BBC Sport Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A34E168F550A1D1CE2AAAACA805BB11 /* Build configuration list for PBXNativeTarget "Pods-BBC Sport Demo" */;
+			buildPhases = (
+				1721A8024283FA69BC22B4DAC81F7DF3 /* Sources */,
+				3455D83B8331040A1F4D0569595B444B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BBC Sport Demo";
+			productName = "Pods-BBC Sport Demo";
+			productReference = 6CAB861F14FD9F39A8B8BC12344733E0 /* libPods-BBC Sport Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9F96D5EE0C6058D6754C49805C9C1C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				468C04C002AEE81420574B53D2EC7BF4 /* Pods-BBC Sport Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1721A8024283FA69BC22B4DAC81F7DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9882ABC95835C2313EEF442DB23289B /* Pods-BBC Sport Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		37AE463BCDEA8ABBDE854E14A614C00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4209280E36BCF0B9C1FAE2D11D6B4661 /* Pods-BBC Sport Demo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7206223AA779887423A5A70CB379A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50579496DC85EF8F87E0DBAE908D9DB6 /* Pods-BBC Sport Demo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A34E168F550A1D1CE2AAAACA805BB11 /* Build configuration list for PBXNativeTarget "Pods-BBC Sport Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7206223AA779887423A5A70CB379A8 /* Debug */,
+				37AE463BCDEA8ABBDE854E14A614C00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
